@@ -12,7 +12,7 @@
 	<artifactId>alfresco-data-model</artifactId>
 	<name>Alfresco Data Model</name>
 	<description>Alfresco Data Model classes</description>
-	<version>8.25.ecm4u.1-SNAPSHOT</version>
+	<version>8.25.ecm4u.1</version>
 
 	<scm>
 		<connection>scm:git:https://github.com/ecm4u/alfresco-data-model-6.git</connection>
