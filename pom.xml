@@ -10,25 +10,27 @@
     <artifactId>alfresco-data-model</artifactId>
     <name>Alfresco Data Model</name>
     <description>Alfresco Data Model classes</description>
-    <version>8.8</version>
+    <version>8.8.ecm4u.1</version>
 
-    <scm>
-        <connection>scm:git:https://github.com/Alfresco/alfresco-data-model.git</connection>
-        <developerConnection>scm:git:https://github.com/Alfresco/alfresco-data-model.git</developerConnection>
-        <url>https://github.com/Alfresco/alfresco-data-model</url>
-        <tag>8.8</tag>
-    </scm>
+	<scm>
+		<connection>scm:git:https://github.com/ecm4u/alfresco-data-model-6.git</connection>
+		<developerConnection>scm:git:https://github.com/ecm4u/alfresco-data-model-6.git</developerConnection>
+		<url>https://github.com/ecm4u/alfresco-data-model-6</url>
+		<tag>8.8.ecm4u.1</tag>
+	</scm>
 
-    <distributionManagement>
-        <repository>
-            <id>alfresco-internal</id>
-            <url>https://artifacts.alfresco.com/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>alfresco-internal-snapshots</id>
-            <url>https://artifacts.alfresco.com/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ecm4u-snapshots</id>
+			<name>ecm4u Snapshots</name>
+			<url>http://artifacts.ecm4u.intra:8081/artifactory/ecm4u-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>ecm4u-releases</id>
+			<name>ecm4u Snapshots</name>
+			<url>http://artifacts.ecm4u.intra:8081/artifactory/ecm4u-releases/</url>
+		</repository>
+	</distributionManagement>
 
     <properties>
         <dependency.alfresco-core.version>7.3</dependency.alfresco-core.version>
